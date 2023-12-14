@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		9CA834B22B1EE20A00F1C8A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA834B12B1EE20A00F1C8A2 /* AppDelegate.swift */; };
 		9CA834B42B1EE20A00F1C8A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA834B32B1EE20A00F1C8A2 /* SceneDelegate.swift */; };
-		9CA834B62B1EE20A00F1C8A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA834B52B1EE20A00F1C8A2 /* ViewController.swift */; };
-		9CA834B92B1EE20A00F1C8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA834B72B1EE20A00F1C8A2 /* Main.storyboard */; };
 		9CA834BB2B1EE20B00F1C8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA834BA2B1EE20B00F1C8A2 /* Assets.xcassets */; };
 		9CA834BE2B1EE20B00F1C8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA834BC2B1EE20B00F1C8A2 /* LaunchScreen.storyboard */; };
+		9CA834C62B1EE2E500F1C8A2 /* dicesViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA834C52B1EE2E500F1C8A2 /* dicesViewViewController.swift */; };
+		9CA834C82B1EE5C700F1C8A2 /* wheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA834C72B1EE5C700F1C8A2 /* wheelViewController.swift */; };
+		9CA834CA2B1EE66A00F1C8A2 /* rockPaperScissorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA834C92B1EE66A00F1C8A2 /* rockPaperScissorsViewController.swift */; };
+		9CA834CC2B1EF79C00F1C8A2 /* ticTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA834CB2B1EF79C00F1C8A2 /* ticTacToeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CA834AE2B1EE20A00F1C8A2 /* randomGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA834B12B1EE20A00F1C8A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA834B32B1EE20A00F1C8A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CA834B52B1EE20A00F1C8A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9CA834B82B1EE20A00F1C8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CA834BA2B1EE20B00F1C8A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA834BD2B1EE20B00F1C8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CA834BF2B1EE20B00F1C8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA834C52B1EE2E500F1C8A2 /* dicesViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicesViewViewController.swift; sourceTree = "<group>"; };
+		9CA834C72B1EE5C700F1C8A2 /* wheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheelViewController.swift; sourceTree = "<group>"; };
+		9CA834C92B1EE66A00F1C8A2 /* rockPaperScissorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rockPaperScissorsViewController.swift; sourceTree = "<group>"; };
+		9CA834CB2B1EF79C00F1C8A2 /* ticTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticTacToeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				9CA834B12B1EE20A00F1C8A2 /* AppDelegate.swift */,
 				9CA834B32B1EE20A00F1C8A2 /* SceneDelegate.swift */,
-				9CA834B52B1EE20A00F1C8A2 /* ViewController.swift */,
-				9CA834B72B1EE20A00F1C8A2 /* Main.storyboard */,
+				9CA834C52B1EE2E500F1C8A2 /* dicesViewViewController.swift */,
+				9CA834C72B1EE5C700F1C8A2 /* wheelViewController.swift */,
+				9CA834C92B1EE66A00F1C8A2 /* rockPaperScissorsViewController.swift */,
+				9CA834CB2B1EF79C00F1C8A2 /* ticTacToeViewController.swift */,
 				9CA834BA2B1EE20B00F1C8A2 /* Assets.xcassets */,
 				9CA834BC2B1EE20B00F1C8A2 /* LaunchScreen.storyboard */,
 				9CA834BF2B1EE20B00F1C8A2 /* Info.plist */,
@@ -127,7 +133,6 @@
 			files = (
 				9CA834BE2B1EE20B00F1C8A2 /* LaunchScreen.storyboard in Resources */,
 				9CA834BB2B1EE20B00F1C8A2 /* Assets.xcassets in Resources */,
-				9CA834B92B1EE20A00F1C8A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +143,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA834B62B1EE20A00F1C8A2 /* ViewController.swift in Sources */,
+				9CA834CA2B1EE66A00F1C8A2 /* rockPaperScissorsViewController.swift in Sources */,
+				9CA834C82B1EE5C700F1C8A2 /* wheelViewController.swift in Sources */,
 				9CA834B22B1EE20A00F1C8A2 /* AppDelegate.swift in Sources */,
 				9CA834B42B1EE20A00F1C8A2 /* SceneDelegate.swift in Sources */,
+				9CA834C62B1EE2E500F1C8A2 /* dicesViewViewController.swift in Sources */,
+				9CA834CC2B1EF79C00F1C8A2 /* ticTacToeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9CA834B72B1EE20A00F1C8A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CA834B82B1EE20A00F1C8A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9CA834BC2B1EE20B00F1C8A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +297,7 @@
 				INFOPLIST_FILE = randomGames/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +325,7 @@
 				INFOPLIST_FILE = randomGames/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
