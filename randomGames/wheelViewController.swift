@@ -43,7 +43,7 @@ class wheelViewController: UIViewController {
         // 設置滑動條
         slider.value = 2
         slider.minimumValue = 2
-        slider.maximumValue = 36
+        slider.maximumValue = 38
         slider.minimumTrackTintColor = .white
         slider.maximumTrackTintColor = .white
         slider.thumbTintColor = .white
